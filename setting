@@ -1,0 +1,33 @@
+{
+  "remappings": [
+    "ds-test/=node_modules/ds-test/src/",
+    "forge-std/=node_modules/forge-std/src/",
+    "@openzeppelin/=node_modules/@openzeppelin/",
+    "@zoralabs/shared-contracts/=node_modules/@zoralabs/shared-contracts/src/",
+    "solady/=node_modules/solady/src/"
+  ],
+  "optimizer": {
+    "enabled": true,
+    "runs": 200
+  },
+  "metadata": {
+    "useLiteralContent": false,
+    "bytecodeHash": "ipfs",
+    "appendCBOR": true
+  },
+  "outputSelection": {
+    "*": {
+      "*": [
+        "evm.bytecode",
+        "evm.deployedBytecode",
+        "devdoc",
+        "userdoc",
+        "metadata",
+        "abi"
+      ]
+    }
+  },
+  "evmVersion": "cancun",
+  "viaIR": true,
+  "libraries": {}
+}
